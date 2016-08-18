@@ -6,7 +6,7 @@ TODO: Write a project description - https://serabakpak.github.io/
 
 TODO: Describe the technologies used
 
-![Portfolio Screenshot](/assets/imgs/portfolio-screenshot.png)
+![Portfolio Screenshot](assets/imgs/portolio-screenshot.png?raw=true)
 
 
 
