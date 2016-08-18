@@ -1,4 +1,4 @@
-# ${1:Personal Portfolio}
+# Personal Portfolio
 
 TODO: Write a project description - https://serabakpak.github.io/
 
@@ -6,7 +6,7 @@ TODO: Write a project description - https://serabakpak.github.io/
 
 TODO: Describe the technologies used
 
-![alt text](assets/imgs/portfolio-screenshot.png "Portfolio Screenshot")
+![Portfolio Screenshot](/assets/imgs/portfolio-screenshot.png)
 
 
 
