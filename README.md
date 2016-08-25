@@ -4,7 +4,8 @@ TODO: Write a project description - https://serabakpak.github.io/
 
 ## Technologies Used
 
-TODO: Describe the technologies used
+* HTML
+* CSS
 
 ![Portfolio Screenshot](assets/imgs/portfolio-screenshot.png?raw=true)
 
