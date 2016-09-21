@@ -65,11 +65,15 @@ h1 {
 	text-align: center;
 }
 
+
+}
+
 h2 {
 	font-weight: lighter;
 	text-align: center;
 	margin-top: 2em;
 	font-size: 2em;
+	padding-top: 1em;
 }
 
 .my-work h2:after {
@@ -84,7 +88,7 @@ h2 {
 }
  
 .my-work a {
-	display: block;
+	display: inline-block;
 	margin-top: 2em;
 	text-decoration: none;
 	font-size: 18px;
@@ -93,6 +97,12 @@ h2 {
 
 .my-work a:hover {
 	color: #252534;
+
+}
+
+i {
+	font-size: 1.2em;
+	margin-left: 0.6em;
 }
 
 .contact-me {
