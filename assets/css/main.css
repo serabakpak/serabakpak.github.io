@@ -38,8 +38,17 @@ nav a:hover {
 }
 
 h1 {
-	font-size: 6em;
+	font-size: 7em;
 	font-weight: bolder;
+}
+
+.hero-text p {
+	margin-top: -1.5em;
+	font-size: 2em;
+	text-transform: capitalize;
+	font-weight: bolder;
+	color: #f3b089;
+
 }
 
 .btn a {
@@ -55,7 +64,7 @@ h1 {
 }
 
 .btn {
-	margin-top: -40px;
+	/*margin-top: -40px;*/
 }
 
 .my-work {
