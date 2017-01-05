@@ -25,80 +25,89 @@
   <script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
 
   <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
+  <!-- <script type="text/javascript" src="assets/js/app.js"></script> -->
 
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-  <header class="main-page">
-    <nav>
-      <a href="#">About Me</a>
-      <a href="#my-work">My Work</a>
-      <a href="#contact-me">Contact Me</a>
+
+
+
+  <div class="splash-page">
+    <a id="menu" class="header__menu">
+      <i class="icon ion-navicon"></i>
+    </a>
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">About Me</a></li>
+        <li class="nav__item"><a href="#my-work">My Projects</a></li>
+        <li class="nav__item"><a href="#contact-me">Contact Me</a></li>
+        
+      </ul>
     </nav>
+
     <div class="hero-text">
       <h1>Sera Bak</h1>
-      <p>Full Stack Web Developer</p>
+      <p>Web Developer</p>
       <div class="btn">
         <a href="#my-work">My Work</a>
         <a href="#contact-me">Contact Me</a>
       </div>
     </div>
-  </header>
+  </div>
+  
+
   <section class="my-work container" id="my-work">
+    <div class="row sub-heading">
+      <h2>My Projects</h2>
+    </div>
+     
     <div class="row">
-      <h2>View My Work</h2>
+      <div class="col-md-4"><a href="https://attached-app.herokuapp.com">Attached</a><a href="https://github.com/serabakpak/attached"><i class="icon ion-social-github"></i></a></div>
+      <div class="col-md-4"><a href="http://view-finder.herokuapp.com/">ViewFinder</a><a href="https://github.com/serabakpak/viewfinder"><i class="icon ion-social-github"></i></a></div>
+      <div class="col-md-4"><a href="https://morning-spire-17654.herokuapp.com">The Best Hour</a><a href="https://github.com/serabakpak/happy-hour"><i class="icon ion-social-github"></i></a></div>
     </div>
     <div class="row">
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/functions-training">Functions Training</a></div>
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/jquery-events-training">jQuery Events Training</a></div>
-      <div class="col-xs-4"><a href="https://serabakpak.github.io/tic-tac-toe">Tic-Tac-Toe</a><a href="https://github.com/serabakpak/tic-tac-toe"><i class="icon ion-social-github"></i></a></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/building-js-iterators-lab">Building JS Iterators</a></div>
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/js-objects-training">JS Objects Training</a></div>
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/giffaw">Giffaw</a></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/geoquakes">Geoquakes</a></div>
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/handlebars-spotify">Handlebars-Spotify</a></div>
-      <div class="col-xs-4"><a href="https://serabakpak.github.io/chiggen-chase/">Chiggen Chase Race Game</a><a href="https://github.com/serabakpak/chiggen-chase"><i class="icon ion-social-github"></i></a></div>
-    </div> 
-    <div class="row">
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/express-routes-training">Express Routes Training</a></div>
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/mongoose-books-app">Mongoose Books App Training</a></div>
-      <div class="col-xs-4"><a href="https://fathomless-plains-84466.herokuapp.com/">Express Personal API</a><a href="https://github.com/serabakpak/express-personal-api"><i class="icon ion-social-github"></i></a></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4"><a href="https://morning-spire-17654.herokuapp.com">The Best Hour</a><a href="https://github.com/serabakpak/happy-hour"><i class="icon ion-social-github"></i></a></div>
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/ng-hangman">ng-Hangman</a></div>
-      <div class="col-xs-4"><a href="https://gist.github.com/serabakpak/fb488ca51c25feafcd9a7176472250e9">How to Build an Angular app</a></div>
-    </div>
-    <div class="row">
-      <div class="col-xs-4"><a href="https://github.com/serabakpak/angular-books-crud-lab">Angular Books CRUD Lab</a></div>
-      <div class="col-xs-4"><a href="https://serabakpak.github.io/angular-custom-directives/">Angular Custom Directives</a><a href="https://github.com/serabakpak/angular-custom-directives"><i class="icon ion-social-github"></i></a></div>
+      <div class="col-md-4"><a href="http://vagabond-internauts.herokuapp.com/">Vagabond</a><a href="https://github.com/serabakpak/internauts-project-vagabond"><i class="icon ion-social-github"></i></a></div>
+      <div class="col-md-4"><a href="https://serabakpak.github.io/movie-app//">Pick Yo' Flick</a><a href="https://github.com/serabakpak/movie-app"><i class="icon ion-social-github"></i></a></div>
+      <div class="col-md-4"><a href="https://serabakpak.github.io/chiggen-chase/">Chiggen Chase</a><a href="https://github.com/serabakpak/chiggen-chase"><i class="icon ion-social-github"></i></a></div>
 
     </div>
+
+
 
   </section>
-  <section class="contact-me" id="contact-me">
+  <footer class="contact-me" id="contact-me">
      <div class="container"> 
-      <div class="row"> 
-        <h2>Ways To Reach Me</h2>
-      </div>
-      <div class="row">
-        <div class="col-xs-4">
-          <a href="mailto:serabak15@gmail.com">Email me</a>
-        </div>
-        <div class="col-xs-4">
-          <a href="https://github.com/serabakpak">GitHub</a>
-        </div>
-        <div class="col-xs-4">
-          <a href="https://www.linkedin.com/in/serabak">LinkedIn</a>
-        </div>
+
+      <div id="contact-icons">
+        
+          <a href="mailto:serabak15@gmail.com"><i class="icon ion-ios-email-outline"></i></a>
+      
+          <a href="https://github.com/serabakpak"><i class="icon ion-social-github"></i></a>
+        
+          <a href="https://www.linkedin.com/in/serabak"><i class="icon ion-social-linkedin-outline"></i></a>
+        
       </div>
     </div>
-  </section>
+  </footer>
+
+
+  <script>
+    /*
+     * Open the drawer when the menu ison is clicked.
+     */
+    var menu = document.querySelector('#menu');
+
+    var drawer = document.querySelector('.nav');
+
+    menu.addEventListener('click', function(e) {
+      drawer.classList.toggle('open');
+      e.stopPropagation();
+    });
+  </script>
+
+
 </body>
 </html>
