@@ -1,6 +1,6 @@
 body {
-	font-family: 'Raleway', sans-serif!important;
-	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	
 }
 
 html, body, header {
@@ -13,6 +13,9 @@ header, nav, footer, section, div {
   box-sizing: border-box;
 }
 
+h1, nav a, .btn a {
+	text-transform: uppercase;
+}
 ul {
   list-style: none;
   padding: 0;
@@ -22,7 +25,7 @@ ul {
 
 .splash-page {
 	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../imgs/hero.jpg);
-	height: 100vh;
+	height: 80%;
 	background-position: center;
 	background-size: cover;
 	color: white;
@@ -93,6 +96,29 @@ h1 {
 	/*margin-top: -40px;*/
 }
 
+/***************************************************/
+/*ABOUT ME SECTION*/
+/***************************************************/
+
+
+#about-me img {
+	border-radius: 50%;
+	width: 20%;
+	height: 20%;
+	
+}
+
+#about-me p {
+	font-size: 1.5em;
+	padding: 5%;
+	text-align: justify;
+}
+
+
+/***************************************************/
+/*WORKS SECTION*/
+/***************************************************/
+
 .my-work {
 	
 	background: white;
@@ -103,11 +129,6 @@ h1 {
 
 .sub-heading h2 {
 	margin-top: 5%;
-}
-
-}
-
-h2 {
 	font-weight: lighter;
 	text-align: center;
 	margin-top: 2em;
@@ -115,27 +136,16 @@ h2 {
 	padding-top: 15px;
 }
 
-.my-work h2:after {
-    display: block;
-    height: 2px;
-    background-color: #252534;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-
-}
- 
 .my-work a {
 	display: inline-block;
 	margin-top: 2em;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 1.5em;
 	color: black;
 }
 
 .my-work a:hover {
-	color: #252534;
+	color: #f3b089;
 
 }
 
@@ -144,26 +154,16 @@ i {
 	margin-left: 0.6em;
 }
 
+/***************************************************/
+/*FOOTER*/
+/***************************************************/
 
 
 footer {
-	
 	background: rgba(51, 51, 51, 0.74);
 	color: white;
 	padding-top: 2em;
 	text-align: center;
-
-}
-
-.contact-me h2:after {
-    display: block;
-    height: 2px;
-    background-color: white;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-
 }
 
 .contact-me a:hover {
@@ -178,12 +178,16 @@ footer {
 #contact-icons i {
 	font-size: 3em;
 }
+
 /***************************************************/
 /*MEDIA QUERIES*/
 /***************************************************/
 
-@media screen and (max-width: 549px) {
-  
+@media screen and (max-width: 577px) {
+  .splash-page {
+  	height: 60%;
+  }
+
 	.ion-navicon {
 		font-size: 3em;
 		margin-right: 25%;
@@ -228,18 +232,43 @@ footer {
 
 	h1 {
 	font-size: 4em;
-	margin: -25% 0 25% 0;
+	margin: 25% 0 25% 0;
 	font-weight: normal;
 	}
 
+	.sub-heading h2 {
+		/*font-size: 1.5em;*/
+	}
+
+	#about-me img {
+		display: block;
+		margin: auto;
+		width: 50%;
+		height: 50%;
+		margin-top: 5%;
+		margin-bottom: 5%;	
+	}
+
+	#about-me p {
+		font-size: 1.3em;
+		padding: 5%;
+
+	}
+
 	#contact-icons i {
-	font-size: 2em;
-	margin: 0;
+		font-size: 2em;
+		margin: 0;
 	}
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 577px) {
 	.ion-navicon {
 		display: none;
 	}		
+
+	.flex-container {
+		display: flex;
+		margin: 5% 0 5% 0;
+		
+	}
 }
