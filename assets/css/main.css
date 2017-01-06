@@ -354,6 +354,17 @@ footer {
 		font-size: 1.5em;
 	}
 
+	#about-me-body {
+		margin: 0;
+	}
+	#about-me img {
+		margin-top: 7%;
+	}
+
+	#about-me p {
+		font-size: 1.3em;
+	}
+
 	.sub-heading h2 {
 		margin-top: 0.5em;
 	}
