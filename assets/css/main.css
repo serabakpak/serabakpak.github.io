@@ -217,7 +217,8 @@ i {
   width: 95%;
 }
 
-.media__body:hover { opacity: 1; }
+.media__body:hover,
+.media__body:focus { opacity: 1; }
 
 .media__body:after,
 .media__body:before {
@@ -251,7 +252,9 @@ i {
 }
 
 .media__body:hover:after,
-.media__body:hover:before {
+.media__body:hover:before,
+.media__body:focus:after,
+.media__body:focus:before {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
